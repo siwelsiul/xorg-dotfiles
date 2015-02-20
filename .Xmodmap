@@ -1,15 +1,22 @@
+! Todas las teclas que tengan Caps_lock se les quita el modificador
+! Si no se quita aunque se cambie la accion de la tecla
+! caps_lock, sigue teniendo el modificador
 remove Lock = Caps_Lock
-remove Mod1 = Alt_L
-remove Mod4 = Super_L
+remove Mod1 = Alt_L 
+remove Mod4 = Super_L Super_R
 remove Mod5 = ISO_Level3_Shift
-remove control = Control_R
+remove control = Control_R Control_L
+! Declara la accion de las teclas
+! Lo que aparece a la izquierda es el codigo de la tecla 
+! que coincide con la accion que hace
+! Solo cubrimos el primer campo
 keysym Escape = Alt_L
 keysym Caps_Lock = Escape
 keysym Alt_L = ISO_Level3_Shift
-! Change Control_R for Super_L depending on machine
-keysym Menu = Control_R
-add Lock = Caps_Lock
-add Mod1 = Alt_L
-add Mod4 = Super_L
+keysym Menu = Super_L
+! Todas las teclas que tengan Alt_L como acción se les asigna 
+! el modificador Mod1
+add Mod1 = Alt_L 
+add Mod4 = Super_L Super_R
 add Mod5 = ISO_Level3_Shift
-add control = Control_R
+add control = Control_R Control_L
