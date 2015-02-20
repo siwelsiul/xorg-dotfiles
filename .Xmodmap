@@ -1,0 +1,15 @@
+remove Lock = Caps_Lock
+remove Mod1 = Alt_L
+remove Mod4 = Super_L
+remove Mod5 = ISO_Level3_Shift
+remove control = Control_R
+keysym Escape = Alt_L
+keysym Caps_Lock = Escape
+keysym Alt_L = ISO_Level3_Shift
+! Change Control_R for Super_L depending on machine
+keysym Menu = Control_R
+add Lock = Caps_Lock
+add Mod1 = Alt_L
+add Mod4 = Super_L
+add Mod5 = ISO_Level3_Shift
+add control = Control_R
