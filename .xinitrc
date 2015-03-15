@@ -3,7 +3,7 @@ autocutsel -selection PRIMARY -fork &
 
 setxkbmap dvorak es 
 xmodmap ~/.config/Xmodmap
-xrdb ~/.Xresources
+xrdb ~/.config/Xresources
 unclutter -idle 2 &
 sxhkd &
 exec bspwm
