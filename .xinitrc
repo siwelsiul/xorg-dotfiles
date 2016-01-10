@@ -5,5 +5,6 @@ setxkbmap dvorak es
 xmodmap ~/.config/Xmodmap
 xrdb ~/.config/Xresources
 unclutter -idle 2 &
-sxhkd &
-exec bspwm
+#sxhkd &
+#exec bspwm
+exec i3
